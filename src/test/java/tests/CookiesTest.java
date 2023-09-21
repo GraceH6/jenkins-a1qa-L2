@@ -25,6 +25,6 @@ public class CookiesTest extends BaseTest {
         userinyerfaceGamePage.getCookiesForm().acceptCookies();
 
         assertTrue(userinyerfaceGamePage.getCookiesForm().state().waitForNotDisplayed(),
-                "Form is closed");
+                "Form is closed, some updates made");
     }
 }
