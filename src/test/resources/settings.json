@@ -21,7 +21,9 @@
         "Performance": "All"
       },
       "pageLoadStrategy": "Normal",
-      "startArguments": []
+      "startArguments": [
+        "--headless"
+      ]
     },
     "edge": {
       "webDriverVersion": "latest",
