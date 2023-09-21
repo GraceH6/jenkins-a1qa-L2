@@ -21,9 +21,7 @@
         "Performance": "All"
       },
       "pageLoadStrategy": "Normal",
-      "startArguments": [
-        "--headless"
-      ]
+      "startArguments": []
     },
     "edge": {
       "webDriverVersion": "latest",
@@ -61,7 +59,9 @@
         "browser.download.manager.useWindow": false,
         "browser.download.panel.shown": false
       },
-      "startArguments": []
+      "startArguments": [
+        "--headless"
+      ]
     },
     "iexplorer": {
       "webDriverVersion": "latest",
